@@ -7,6 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Index File</h1>
+    <form action="#" method="Post">
+
+<input type="text"  name="number" value="Number">
+<input type="submit" name="submit">
+    </form>
 </body>
 </html>
+<?php
+if(isset($_POST['submit'])){
+
+    if($_POST['number']==1){
+        echo "<h1>Hello Jee </h1>";
+    }
+}
+
+?>
